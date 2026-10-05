@@ -3,11 +3,26 @@ body {
     color: #111;
 }
 
+.hero-text {
+    margin-left: 62px;
+}
+
+.hero-card {
+    margin-right: 62px;  
+}
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 12px;
     border-bottom: 1px solid black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin-left: 62px;
 }
 
 .header {
@@ -26,6 +41,14 @@ nav a {
  color: #111;
 }
 
+header button {
+    margin-right: 62px;
+    background-color: #111;
+    color: #f2f2ef;
+    padding: 12px;
+    border-radius: 8px;
+}
+
 
 .button {
     background-color: #111;
@@ -34,13 +57,92 @@ nav a {
 }
 
 .hero {
-    padding: 100px 40px;
+    padding-top: 100px;
+    padding-bottom:  40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f2f2ef;
 }
-
 .hero-text {
     max-width: 650px;
 }
+
+.ser-hero {
+    text-align: center;
+    margin-top: 62px;
+    font-size: x-large;
+}
+
+.services-cards {
+    margin-right: 62px;
+    margin-left: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 62px;
+}
+
+.services-card {
+    width: 350px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.footer {
+    background: #222;
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 40px;
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column .logo {
+    color: white;
+}
+
+.footer-column p {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.footer-column h3 {
+    margin-top: 0;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444; padding: 20px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #aaa;
+}
+
